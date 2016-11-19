@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        setTitle("Kantin Moklet");
+
         buttonUs = (Button) findViewById(R.id.buttonUs);
         buttonMulai = (Button) findViewById(R.id.buttonMulai);
 

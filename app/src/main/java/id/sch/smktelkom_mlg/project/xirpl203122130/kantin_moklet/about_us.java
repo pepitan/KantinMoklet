@@ -12,6 +12,8 @@ public class about_us extends AppCompatActivity {
         setContentView(R.layout.activity_about_us);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        setTitle("About Us");
     }
 
     @Override
